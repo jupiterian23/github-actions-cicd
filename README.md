@@ -1,3 +1,5 @@
+Sure 👍 Here is the **clean, portfolio-ready README only**. You can copy-paste it directly into GitHub.
+
 # 🚀 GitHub Actions CI/CD Pipeline
 
 A containerized Flask application with an automated CI/CD pipeline using **GitHub Actions**.
@@ -88,4 +90,70 @@ Expected response:
 ## 📂 Project Structure
 
 ```text
+github-actions-cicd/
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── app/
+│   ├── __init__.py
+│   └── app.py
+├── tests/
+│   └── test_app.py
+├── Dockerfile
+├── requirements.txt
+├── .gitignore
+└── README.md
 ```
+
+## ⚙️ GitHub Actions Workflow
+
+The workflow is defined in:
+
+```text
+.github/workflows/ci.yml
+```
+
+It runs automatically on:
+
+* 📤 Push to `main`
+* 🔀 Pull requests targeting `main`
+
+### Pipeline Stages
+
+```text
+📥 Checkout Code
+       ↓
+🐍 Setup Python 3.12
+       ↓
+📦 Install Dependencies
+       ↓
+🧪 Run Pytest
+       ↓
+🐳 Build Docker Image
+       ↓
+✅ Pipeline Complete
+```
+
+## 🎯 Skills Demonstrated
+
+**CI/CD • GitHub Actions • Docker • Python • Flask • Pytest • Git • GitHub • Automation**
+
+## 🧠 What I Learned
+
+* 🔄 CI/CD fundamentals
+* ⚙️ GitHub Actions workflows
+* 🧪 Automated testing with Pytest
+* 🐳 Docker containerization
+* 🔧 Git and GitHub workflows
+* 📦 Dependency management
+* 🚀 Automating application validation and Docker builds
+
+## 👨‍💻 Author
+
+**Shubham Gorule**
+
+BCA Student | Aspiring Cloud Engineer | AWS | Linux | Networking | DevOps
+
+---
+
+⭐ **Built as part of my Cloud & DevOps project portfolio.**
